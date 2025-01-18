@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background: url("images/stbg.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup{
+    height: 580px;
+    width: 700px;
+    background-color: rgba(224, 220, 210, 0.75);
+    border: 4px solid #DAD3C3;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 30px;
+    h1{
+        font-family: 'TEXAS CRUST PERSONAL USE', sans-serif;
+        font-size: 60px;
+        color: #403428;
+    }
+}
+.inputs{
+    /* font-family: "Cinzel", serif;
+    font-optical-sizing: auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .username{
+        width: 80%;
+        margin: 10px 0;
+        padding: 5px 0;
+        border-bottom: 2px solid #403428;
+    }
+    .email{
+        width: 80%;
+        margin: 10px 0;
+        padding: 5px 0;
+        border-bottom: 2px solid #403428;
+    }
+    .cfmpassword{
+        width: 80%;
+        margin: 10px 0;
+        padding: 5px 0;
+        border-bottom: 2px solid #403428;
+    }
+    .password{
+        width: 80%;
+        margin: 10px 0;
+        padding: 5px 0;
+        border-bottom: 2px solid #403428;
+    }
+    input{
+        width: 100%;
+        font-size:30px;
+        background-color: transparent;
+        border: none;
+        color: #403428;
+        outline: none;
+        /* font-family: "Cinzel", serif;
+        font-optical-sizing: auto; */
+    }
+    input::placeholder{
+        color: #403428;
+        font-family: ;
+        /* font-family: "Cinzel", serif;
+        font-optical-sizing: auto; */
+    }
+}
+.subbtn{
+    position: relative;
+    top: 40px;
+    /* font-family: "Cinzel", serif;
+    font-optical-sizing: auto; */
+    font-family: 'TEXAS CRUST PERSONAL USE', sans-serif;
+    font-size: 30px;
+    padding: 5px 25px;
+    border: none;
+    background-color: #231709D9;
+    color: white;
+    border-radius:20px;
+    cursor:pointer;
+}
+.subbtn:hover{
+    scale: 1.01;
+}
+.signup p{
+    position: relative;
+    top: 100px;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;  
+}
